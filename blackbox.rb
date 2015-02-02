@@ -1,6 +1,7 @@
 class Blackbox < Formula
   homepage 'https://github.com/StackExchange/blackbox'
   url 'https://github.com/StackExchange/blackbox.git', :tag => 'production'
+  version 'production'
 
   depends_on 'gpg'
   depends_on 'gpg-agent' => :optional
