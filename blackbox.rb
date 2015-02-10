@@ -3,7 +3,7 @@ class Blackbox < Formula
   url 'https://github.com/StackExchange/blackbox.git', :tag => 'production'
   version 'production'
 
-  depends_on 'gpg'
+  depends_on 'gnupg'
   depends_on 'gpg-agent' => :optional
 
   def install
