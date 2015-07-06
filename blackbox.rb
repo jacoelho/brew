@@ -1,9 +1,10 @@
+require 'formula'
+
 class Blackbox < Formula
   homepage 'https://github.com/StackExchange/blackbox'
-  url 'https://github.com/StackExchange/blackbox.git', :tag => 'production'
-  version 'production'
+  url 'https://github.com/StackExchange/blackbox.git', :tag => 'stable'
 
-  depends_on 'gnupg'
+  depends_on 'gpg'
   depends_on 'gpg-agent' => :optional
 
   def install
