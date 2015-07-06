@@ -1,6 +1,6 @@
 class Crane < Formula
   homepage 'https://github.com/michaelsauter/crane'
-  url 'https://github.com/michaelsauter/crane.git', :tag => 'v1.1.1'
+  url 'https://github.com/michaelsauter/crane.git', :tag => 'v1.4.0'
   
   depends_on 'go' => :build
 
