@@ -1,8 +1,6 @@
-require 'formula'
-
 class Blackbox < Formula
   homepage 'https://github.com/StackExchange/blackbox'
-  url 'https://github.com/StackExchange/blackbox.git', :tag => 'stable'
+  head 'https://github.com/StackExchange/blackbox.git'
 
   depends_on 'gpg'
   depends_on 'gpg-agent' => :optional
